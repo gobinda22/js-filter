@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div>
+        <p>Filter UI cards via Profession</p>
+    </div>
+    <div class="pro">
+    <label for="profession"></label>
+    <select id="profession">
+    <option value="">Profession</option>
+    <option value="developer">Developer</option>
+    <option value="admin">Admin</option>
+    </select>
+    <br>
+    <br>
+    <!-- Card mapping of users -->
+    <div id="userList"></div>
+    <br>
+    <button onclick="filter()">Filter</button>
+    </div>
+
+    <br>
+    <!-- Input fields for adding new user -->
+    <div><p>Add a new User</p></div>
+    <div class="adduser">
+    <div>
+    <input type="text" id="name" placeholder="Enter Name">
+    </div>
+    <div>
+    <input type="number" id="age" placeholder="Enter Age">
+    </div>
+    <div class="prof">
+    <select id="newProfession">
+    <option value="">Profession</option>
+    <option value="developer">Developer</option>
+    <option value="admin">Admin</option>
+    </select>
+    </div>
+    </div>
+    <br>
+    <div class="pro">
+    <button onclick="addUser()">Add User</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: 'Inter';
+}
+body{
+    background-color: black;
+}
+.pro #profession{
+    padding: 10px;
+    font-size: 17px;
+}
+
+.pro button{
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: white;
+        color: black;
+}
+.adduser{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.adduser input{
+    padding: 11px;
+}
+.adduser .prof #newProfession{
+    padding: 9px;
+    font-size: 17px;
+}
+.card{
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 478px;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
