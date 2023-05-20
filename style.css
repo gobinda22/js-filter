@@ -26,6 +26,8 @@ body{
 }
 .adduser input{
     padding: 11px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 .adduser .prof #newProfession{
     padding: 9px;
