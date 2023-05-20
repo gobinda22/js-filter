@@ -12,8 +12,8 @@ function renderUserList(users) {
     card.innerHTML = `
       <span>${count}.</span>
       <span style="margin-left:17px">Name: ${user.name}</span>
-      <span style="margin-left:17px">Age: ${user.age}</span>
       <span style="margin-left:17px">Profession: ${user.profession}</span>
+      <span style="margin-left:17px">Age: ${user.age}</span>
     `;
     userList.appendChild(card);
   });
@@ -34,8 +34,8 @@ function filter() {
 // Function to add a new user
 function addUser() {
   const nameInput = document.getElementById("name");
+  const professionSelect = document.getElementById("professionInput");
   const ageInput = document.getElementById("age");
-  const professionSelect = document.getElementById("newProfession");
   const name = nameInput.value;
   const age = ageInput.value;
   const profession = professionSelect.value;
